@@ -1,0 +1,453 @@
+header
+{
+    background-color: lightgrey;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+h1
+{
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-item, .nav-link
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main, section
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+.kartya
+{
+    background-color: rgb(35, 192, 35);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.kartyalink
+{
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.kartyalink:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+hr
+{
+    background-color: black;
+}
+
+main > img
+{
+    float: left;
+    border: 2px solid black;
+}
+
+main > span
+{
+    float: right;
+}
+
+h2
+{
+    text-align: left;
+}
+
+p
+{
+    display: inline-block;
+    text-align: justify;
+}
+
+a
+{
+    color: rgb(35, 192, 35);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:  rgb(35, 192, 35);
+    text-decoration: none;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(35, 192, 35);
+}
+
+.mainp::first-letter
+{
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+}
+
+article
+{
+    text-align: right;
+}
+
+footer
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+footer > ul
+{
+    text-align: center;
+}
+
+.credit
+{
+    display: inline;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+#utso
+{
+    border-right: 0;
+}
+
+@media (max-width: 345px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+
+    #szekcio1
+    {
+        margin: auto;
+    }
+
+    img
+    {
+        display: none;
+    }
+
+    .row > div
+    {
+        height: 55px;
+    }
+
+    .kartya
+    {
+        margin-bottom: 3px;
+    }
+
+    a > p
+    {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #logo
+    {
+        display: none;
+    }
+
+    article
+    {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    article > h3
+    {
+        font-size: 1.2rem;
+    }
+
+    #nagyh2
+    {
+        text-align: center;
+    }
+
+    main > p
+    {
+        font-size: 0.5rem;
+    }
+
+    #szekcio2
+    {
+        margin: auto;
+    }
+
+    footer > h3
+    {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    footer > ul
+    {
+        padding: 0;
+    }
+
+    .credit
+    {
+        font-size: 0.8rem;
+        border: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 425px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+
+    #szekcio1
+    {
+        margin: auto;
+    }
+
+    img
+    {
+        display: none;
+    }
+
+    .row > div
+    {
+        height: 55px;
+    }
+
+    .kartya
+    {
+        margin-bottom: 3px;
+    }
+
+    a > p
+    {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #logo
+    {
+        display: none;
+    }
+
+    article
+    {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    article > h3
+    {
+        font-size: 1.2rem;
+    }
+
+    #nagyh2
+    {
+        text-align: center;
+    }
+
+    main > p
+    {
+        font-size: 0.9rem;
+    }
+
+    #szekcio2
+    {
+        margin: auto;
+    }
+
+    footer > h3
+    {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    footer > ul
+    {
+        padding: 0;
+    }
+
+    .credit
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 749px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+
+    #szekcio1
+    {
+        margin: auto;
+    }
+
+    img
+    {
+        display: none;
+    }
+
+    .row > div
+    {
+        height: 55px;
+        width: 250px;
+    }
+
+    .kartya
+    {
+        margin-bottom: 3px;
+    }
+
+    a > p
+    {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    article
+    {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    article > h3
+    {
+        font-size: 1.2rem;
+    }
+
+    #nagyh2
+    {
+        text-align: center;
+    }
+
+    main > p
+    {
+        font-size: 0.9rem;
+    }
+
+    #szekcio2
+    {
+        margin: auto;
+    }
+
+    footer > h3
+    {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    footer > ul
+    {
+        padding: 0;
+    }
+
+    .credit
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 576px)
+{
+    #logo
+    {
+        display: inline;
+    }
+
+    article
+    {
+        text-align: right;
+    }
+
+    #cegnev
+    {
+        text-align: left;
+    }
+}
+
+@media (min-width: 750px)
+{
+    #szekcio1
+    {
+        width: 768px;
+        height: 154.16px;
+    }
+
+    .kartyakeret
+    {
+        width: 768px;
+        height: 154.16px;
+    }
+
+    .kartya
+    {
+        width: 192px;
+        height: 154.16px;
+    }
+}
+
+@media (min-width: 1441px)
+{
+    html
+    {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #szekcio1
+    {
+        width: 800px;
+        height: 200px;
+    }
+
+    .kartyakeret
+    {
+        width: 800px;
+        height: 200px;
+    }
+
+    .kartya
+    {
+        /*width: 600px;*/
+        height: 180px;
+    }
+
+    .kartya > p
+    {
+        width: 166px;
+        height: 67.5px;
+    }
+
+    .kartyalink
+    {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 575px)
+{
+    #brand
+    {
+        margin: auto;
+        font-weight: bold;
+    }
+
+    #cegnev
+    {
+        text-align: center;
+    }
+}

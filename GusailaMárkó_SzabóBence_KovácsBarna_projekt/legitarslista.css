@@ -1,0 +1,60 @@
+header
+{
+    background-color: lightgrey;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+main
+{
+    max-width: 800px;
+}
+
+a
+{
+    color: rgb(35, 192, 35);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:  rgb(35, 192, 35);
+    text-decoration: none;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(35, 192, 35);
+}
+
+.picitnagyobb
+{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 767px)
+{
+    h1
+    {
+        font-size: 30px;
+    }
+
+    .picitnagyobb
+    {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1441px)
+{
+    h1
+    {
+        font-size: 60px;
+    }
+
+    p
+    {
+        font-size: 20px;
+    }
+
+    .picitnagyobb
+    {
+        font-size: 2rem;
+    }
+}

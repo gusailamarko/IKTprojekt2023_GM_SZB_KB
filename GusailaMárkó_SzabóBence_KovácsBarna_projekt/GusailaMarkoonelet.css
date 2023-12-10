@@ -1,0 +1,159 @@
+header
+{
+    background-color: lightgrey;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.navbar-brand
+{
+    color: black;
+    font-weight: bold;
+}
+
+.nav-item, .nav-link
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section, main
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p:hover
+{
+    color: rgb(35, 192, 35);
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+.skilltree
+{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.skilltree:hover
+{
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(35, 192, 35);
+    font-weight: normal;
+    transition: all 0.5s ease-in;
+}
+
+hr
+{
+    max-width: 750px;
+    background-color: rgb(35, 192, 35);
+}
+
+#en
+{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.jobbra
+{
+    float: right;
+}
+
+a
+{
+    color: rgb(35, 192, 35);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:  rgb(35, 192, 35);
+    text-decoration: none;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(35, 192, 35);
+}
+
+footer
+{
+    border-top: 2px solid black;
+    background-color: lightgrey;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg
+{
+    margin: 20px;
+}
+
+@media (max-width: 767px)
+{
+    img, hr, h1
+    {
+        display: none;
+    }
+
+    svg
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    h2, p
+    {
+        text-align: left;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .navbar-brand
+    {
+        margin: auto;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 520px)
+{
+    .skilltree
+    {
+        margin-right: 150px;
+    }
+
+    #nagyg
+    {
+        width: 190px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 521px)
+{
+    svg
+    {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (min-width: 1441px)
+{
+    html
+    {
+        width: 100%;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="kesesek.css">
+    <title>Késések</title>
+</head>
+<body>
+    <script src="kesesek.js"></script>
+    <header>
+        <h1>Késések</h1>
+    </header>
+    <nav>
+        <p><a href="statisztika.html">Főoldal</a> > <a href="kesesek.html">Késések</a></p>
+    </nav>
+    <main>
+        <h2>3 átlagos késés</h2><br>
+        <div class="row">
+            <div class="col-md-4 szegely">
+                <img src="kupaikon.jpg" alt="kupa" title="kupa">
+                <h4> - Társaság 1</h4><br>
+                <p class="vastag">Átlagos késés:</p>
+                <p><span class="adatok" id="feladat1"></span></p>
+            </div>
+            <div class="col-md-4 szegely">
+                <img src="kupaikon.jpg" alt="kupa" title="kupa">
+                <h4> - Társaság 2</h4><br>
+                <p class="vastag">Átlagos késés:</p>
+                <p><span class="adatok" id="feladat2"></span></p>
+            </div>
+            <div class="col-md-4 szegely">
+                <img src="kupaikon.jpg" alt="kupa" title="kupa">
+                <h4> - Társaság 3</h4><br>
+                <p class="vastag">Átlagos késés:</p>
+                <p><span class="adatok" id="feladat3"></span></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <input type="button" onclick="feladat1(), feladat2(), feladat3()" value="Adatok">
+    </footer>
+</body>
+</html>

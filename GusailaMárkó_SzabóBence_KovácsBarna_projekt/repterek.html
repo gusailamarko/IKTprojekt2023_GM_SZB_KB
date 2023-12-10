@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="repterek.css">
+    <title>Repterek</title>
+</head>
+<body>
+    <script src="repterek.js"></script>
+    <header>
+        <h1>Repterek</h1>
+    </header>
+    <nav>
+        <p><a href="statisztika.html">Főoldal</a> > <a href="repterek.html">Repterek</a></p>
+    </nav>
+    <main>
+        <h1>3 Reptér</h1><br>
+        <div class="row">
+            <div class="col-md-4 szegely">
+                <img src="kupaikon.jpg" alt="kupa" title="kupa">
+                <h4> - Reptér 1</h4><br>
+                <p class="vastag">Az összes járat:</p>
+                <p><span class="adatok" id="feladat1"></span></p>
+                <p class="vastag">Kód:</p>
+                <p class="adatok">REP</p>
+                <p class="vastag">Koordináták:</p>
+                <p class="adatok">43.5704° N 116.2228° W</p>
+            </div>
+            <div class="col-md-4 szegely">
+                <img src="kupaikon.jpg" alt="kupa" title="kupa">
+                <h4> - Reptér 2</h4><br>
+                <p class="vastag">Az összes járat:</p>
+                <p><span class="adatok" id="feladat2"></span></p>
+                <p class="vastag">Kód:</p>
+                <p class="adatok">REP</p>
+                <p class="vastag">Koordináták:</p>
+                <p class="adatok">40.4881° N 107.2172° W</p>
+            </div>
+            <div class="col-md-4 szegely">
+                <img src="kupaikon.jpg" alt="kupa" title="kupa">
+                <h4> - Reptér 3</h4><br>
+                <p class="vastag">Az összes járat:</p>
+                <p><span class="adatok" id="feladat3"></span></p>
+                <p class="vastag">Kód:</p>
+                <p class="adatok">REP</p>
+                <p class="vastag">Koordináták:</p>
+                <p class="adatok">43.6070° N 110.7377° W</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <input type="button" onclick="feladat1(), feladat2(), feladat3()" value="Adatok">
+    </footer>
+</body>
+</html>

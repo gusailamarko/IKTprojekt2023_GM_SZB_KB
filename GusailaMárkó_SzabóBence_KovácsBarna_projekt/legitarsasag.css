@@ -1,0 +1,231 @@
+body {
+    width: auto;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.meret
+{
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+/*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.box {
+
+    width: 200px;
+    height: auto;
+}
+
+.box2 {
+
+    width: 30px;
+    height: auto;
+    
+}
+
+.rep {
+    background-color: teal;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.rep2 {
+    
+    border: 1px solid black;
+    color: black;
+    width: 230px;
+    height: 230px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    
+
+}
+.rep3 {
+    
+    border: 1px solid black;
+    color: black;
+    width: 130px;
+    height: 100px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    
+
+}
+
+.reprep
+{
+    height: 90%;
+    width: 90%;
+    
+}
+
+.flowing
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+header {
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+    width: auto
+}
+
+main {
+    padding-top: 20px;
+}
+table{
+    background-color: white;
+    border: 3px solid black;
+    text-align: right;
+    color: black;
+    font-size:medium;
+    
+}
+td
+{
+    
+    border: 1px solid black;;
+    text-align: left;
+    font-size: small;
+    vertical-align: bottom;
+}
+
+.alle
+{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+.text-left
+{
+    padding-left: 20px;
+}
+.jobb
+{
+    display: flex;
+    justify-content: right;
+    align-content: right;
+    padding: auto;
+}
+.footer
+{
+    text-align: center;
+}
+
+.padd
+{
+    padding: 30px;
+}
+h4
+{
+    line-height: 50px;
+}
+
+p
+{
+    line-height: 0px
+}
+
+.line
+{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    
+}
+
+.wid
+{
+    width: 97%;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.inner
+{
+    padding-left: 10px;
+}
+
+.flo
+{
+    line-height: 1.2;
+    list-style-type: none;
+    text-align: left;
+
+}
+
+.biig
+{
+    line-height: 2;
+}
+
+.ll
+{
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    padding: auto;
+}
+
+.rr
+{
+    display: flex;
+    justify-content: right;
+    align-content: right;
+    padding: auto;
+}
+
+a{
+    text-decoration: underline;
+    
+}
+
+button
+{
+    align-self: center;
+}
+
+.cen
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+}
+
+.rspt
+{
+    line-height:0;
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    padding: 0%;
+}
+
+.uto{
+    display: flex;
+    justify-content: space-evenly;
+}
